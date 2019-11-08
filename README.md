@@ -24,15 +24,26 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [ x] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-- [ ] What does it mean to _think_ in react?
+ReactJS is an open-source JavaScript library which is used for building user interfaces for single page applications. It allows us to create reusable UI components to keep our code dry AND  quickly changes data without reloading the page.
 
-- [ ] Describe state.
+- [ x] What does it mean to _think_ in react?
 
-- [ ] Describe props.
+It means React makes you think about your apps as you build them. Seeing components, component hierarchy, state, UI interactivity, and data flow simultaneously. 
 
-- [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+- [ x] Describe state.
+
+State is an object that determines how q component renders & behaves. State is what makes components dynamic and interactive. 
+
+- [ x] Describe props.
+
+Props are a variable with stored information passed to state via a parent component. Props can be customized with different parameters and they are read-only. 
+
+- [ x] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+Side effects in JS are Hooks, you set them by the useEffect hook which tells the component it needs to do something after render. React will remember the function that was passed and call it later after performing the DOM updates. 
+
 
 ## Project Set Up
 
